@@ -1,0 +1,26 @@
+:root{
+    --stand-bc:#a84949;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+}
+
+.hole{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0 0 0;
+    /* background-color: red; */
+}
+
+.stand{
+    background-color: var(--stand-bc);
+    height: 10vh;
+    width: 15vw;
+    border: 3px solid black;
+}
+
