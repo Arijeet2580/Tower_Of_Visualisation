@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tower of Hanoi </title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hole">
-        
-        <div class="stand stand1"></div>
-        <div class="stand stand2"></div>
-        <div class="stand stand3"></div>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="new-game">
+                <select name="discs" id="BlockNo">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <button id="Run">New Game</button>
+            </div>
+            <div class="speed">
+                <p>The Min Number of Passes Needed:-  <span id="NoOfPass">12345</span> </p>
+                
+            </div>
+            <div class="buttons">
+                <button id="SolveBtn">Solve</button>
+            </div>
+        </div>
+        <div class="stage">
+            <div class="tower">
+                <div class="stem"></div>
+                <div class="plate"></div>
+            </div>
+            <div class="tower">
+                <div class="stem"></div>
+                <div class="plate"></div>
+            </div>
+            <div class="tower">
+                <div class="stem"></div>
+                <div class="plate"></div>
+            </div>
+        </div>
     </div>
-    <!--Make a Dialog Box Where a Input box with id BlockNo and Output Box where the Id is NoOfPass-->
 </body>
 </html>
