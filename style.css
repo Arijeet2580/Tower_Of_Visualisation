@@ -1,26 +1,49 @@
-:root{
-    --stand-bc:#a84949;
+*{
+    box-sizing: border-box;
 }
 
-.body{
-    height: 100%;
-    width: 100%;
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
 }
 
-.hole{
-    /* height: 100%;
-    width: 100%; */
+.stage{
+    height: 180px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.tower{
+    background-color: rgb(206, 206, 77);
+    height: 160px;
+    width: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 12px 0 0 0;
-    /* background-color: red; */
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.stand{
-    background-color: var(--stand-bc);
-    height: 10vh;
-    width: 15vw;
-    border: 3px solid black;
-}
 
+
+.stem{
+    background-color: #000;
+    height: 140px;
+    width: 8px;
+    
+    }
+
+.plate{
+    width: 115px;
+    height: 10px;
+    background-color: brown;
+    border-radius: 10px;
+    /* z-index: 1; */
+}
