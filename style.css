@@ -88,6 +88,19 @@ button:hover{
     height: 180px;
     background-color: dimgray;
     display: flex;
+=======
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.stage{
+    height: 180px;
+    background-color: dimgray;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
